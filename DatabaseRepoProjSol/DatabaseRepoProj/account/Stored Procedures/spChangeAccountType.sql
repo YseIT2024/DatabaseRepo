@@ -23,6 +23,8 @@ BEGIN
 	DECLARE @OldTransactionFactor INT;
 	DECLARE @NewTransactionFactor INT;
 
+	--This change is a test change to analise the Repository and version control for database
+
 	BEGIN TRY  		
 		SELECT @ReservationID = ReservationID, @OldTransactionTypeID = TransactionTypeID
 		FROM account.[Transaction]

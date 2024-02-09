@@ -43,6 +43,8 @@ BEGIN
 	DECLARE @USDBalance DECIMAL(18,2) = 0;
 	DECLARE @FolioNo int;
 
+	-- My second change for Database Repository version control
+
 	set @FolioNo =(select FolioNumber from reservation.[Reservation] where ReservationID=@ReservationID)
 	
 
